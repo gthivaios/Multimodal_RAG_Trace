@@ -1,0 +1,28 @@
+# secrets
+.env
+
+# environments
+.venv/
+venv/
+
+# data: scraped texts and images belong to their publishers -> never commit
+data/
+
+# old exploration files kept locally only
+archive/
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+
+# notebooks / editors / OS
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+~$*
